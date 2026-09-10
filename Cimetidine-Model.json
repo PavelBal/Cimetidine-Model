@@ -888,12 +888,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -910,12 +910,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -930,7 +930,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -1641,7 +1641,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -2611,17 +2611,17 @@
           "Percentile": 0.0,
           "DistributionMetaData": [
             {
-              "Mean": 1E-14,
+              "Mean": 1e-14,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 1.915059E-05,
+              "Mean": 1.915059e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
             {
-              "Mean": 5.486795E-05,
+              "Mean": 5.486795e-05,
               "Deviation": 1.6,
               "Distribution": "LogNormal"
             },
@@ -2740,17 +2740,17 @@
           "Points": [
             {
               "X": 0.0,
-              "Y": 1E-14,
+              "Y": 1e-14,
               "RestartSolver": false
             },
             {
               "X": 0.08333334,
-              "Y": 1.915059E-05,
+              "Y": 1.915059e-05,
               "RestartSolver": false
             },
             {
               "X": 0.1666667,
-              "Y": 5.486795E-05,
+              "Y": 5.486795e-05,
               "RestartSolver": false
             },
             {
@@ -3342,7 +3342,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 5.2554004942E-06,
+              "Value": 5.2554004942e-06,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
@@ -6645,7 +6645,170 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.08,
+              "Max": 8.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 2.697086,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 100 mg (5 min), Grahnen 1979, n=3|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - IV 100 mg, Individual KN - Cimetidine - IV - 100 mg - Plasma - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Grahnen 1979 - IV 100 mg, Individual KN - Cimetidine - IV - 100 mg - Plasma - indiv.|Time",
+              "Y": "Grahnen 1979 - IV 100 mg, Individual KN - Cimetidine - IV - 100 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - IV 100 mg, Individual LH - Cimetidine - IV - 100 mg - Plasma - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Grahnen 1979 - IV 100 mg, Individual LH - Cimetidine - IV - 100 mg - Plasma - indiv.|Time",
+              "Y": "Grahnen 1979 - IV 100 mg, Individual LH - Cimetidine - IV - 100 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - IV 100 mg, Individual LOE - Cimetidine - IV - 100 mg - Plasma - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Grahnen 1979 - IV 100 mg, Individual LOE - Cimetidine - IV - 100 mg - Plasma - indiv.|Time",
+              "Y": "Grahnen 1979 - IV 100 mg, Individual LOE - Cimetidine - IV - 100 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 100 mg (5 min), Grahnen 1979, n=3",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 100 mg (5 min), Grahnen 1979, n=3\n2021-09-13 17:01"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv 100 mg (5 min), Grahnen 1979, n=3|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - IV 100 mg, urine mean % of dose - Cimetidine - IV - 100 mg - Urine - agg. (n=10)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Grahnen 1979 - IV 100 mg, urine mean % of dose - Cimetidine - IV - 100 mg - Urine - agg. (n=10)|Time",
+              "Y": "Grahnen 1979 - IV 100 mg, urine mean % of dose - Cimetidine - IV - 100 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 100 mg (5 min), Grahnen 1979, n=3, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 100 mg (5 min), Grahnen 1979, n=3\n2021-09-13 17:01"
+        }
+      ]
     },
     {
       "Name": "iv 200 mg (30 min),Morgan 1983, n=4",
@@ -6760,7 +6923,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 200 mg (30 min),Morgan 1983, n=4|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Morgan 1983 - IV 200 mg 30 min - Cimetidine - IV - 200 mg - Plasma - agg. (n=4)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Morgan 1983 - IV 200 mg 30 min - Cimetidine - IV - 200 mg - Plasma - agg. (n=4)|Time",
+              "Y": "Morgan 1983 - IV 200 mg 30 min - Cimetidine - IV - 200 mg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg (30 min),Morgan 1983, n=4",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg (30 min),Morgan 1983, n=4\n2021-09-13 17:01"
+        }
+      ]
     },
     {
       "Name": "iv 200 mg (5 min),Morgan 1983, n=6",
@@ -6875,7 +7107,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 200 mg (5 min),Morgan 1983, n=6|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Morgan 1983 - IV 200 mg 5 min - Cimetidine - IV - 200 mg - Plasma - agg. (n=6)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Morgan 1983 - IV 200 mg 5 min - Cimetidine - IV - 200 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Morgan 1983 - IV 200 mg 5 min - Cimetidine - IV - 200 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg (5 min),Morgan 1983, n=6",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg (5 min),Morgan 1983, n=6\n2021-09-13 17:02"
+        }
+      ]
     },
     {
       "Name": "iv 200 mg, Bodemar 1981, n=10",
@@ -6990,7 +7291,148 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 10.6281,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 200 mg, Bodemar 1981, n=10|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - IV 200 mg - Cimetidine - IV - 200 mg - Plasma - agg. (n=10)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bodemar 1981 - IV 200 mg - Cimetidine - IV - 200 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Bodemar 1981 - IV 200 mg - Cimetidine - IV - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg, Bodemar 1981, n=10",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg, Bodemar 1981, n=10\n2021-09-13 17:02"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv 200 mg, Bodemar 1981, n=10|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - IV 200 mg, Urine - Cimetidine - IV - 200 mg - Urine - agg. (n=10)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Bodemar 1981 - IV 200 mg, Urine - Cimetidine - IV - 200 mg - Urine - agg. (n=10)|Time",
+              "Y": "Bodemar 1981 - IV 200 mg, Urine - Cimetidine - IV - 200 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg, Bodemar 1981, n=10, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg, Bodemar 1981, n=10\n2021-09-13 17:02"
+        }
+      ]
     },
     {
       "Name": "iv 200 mg, Larsson 1982, n=9",
@@ -7105,7 +7547,148 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 6.049524,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 200 mg, Larsson 1982, n=9|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Larsson 1982 - IV 200 mg in normal renal function group - Cimetidine - IV - 200 mg - Plasma - agg. (n=9)-Cimetidine-ArithmeticMean",
+              "X": "Larsson 1982 - IV 200 mg in normal renal function group - Cimetidine - IV - 200 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Larsson 1982 - IV 200 mg in normal renal function group - Cimetidine - IV - 200 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg, Larsson 1982, n=9",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg, Larsson 1982, n=9\n2021-09-13 17:02"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv 200 mg, Larsson 1982, n=9|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Larsson 1982 - IV 200 mg in normal renal function group - Cimetidine - IV - 200 mg - Urine - agg. (n=9)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Larsson 1982 - IV 200 mg in normal renal function group - Cimetidine - IV - 200 mg - Urine - agg. (n=9)|Time",
+              "Y": "Larsson 1982 - IV 200 mg in normal renal function group - Cimetidine - IV - 200 mg - Urine - agg. (n=9)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg, Larsson 1982, n=9, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg, Larsson 1982, n=9\n2021-09-13 17:02"
+        }
+      ]
     },
     {
       "Name": "iv 200 mg, Mihaly 1984, n=6",
@@ -7214,7 +7797,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 200 mg, Mihaly 1984, n=6|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Mihaly 1984 - IV 200 mg - Cimetidine - IV - 200 mg - Plasma - agg. (n=6)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Mihaly 1984 - IV 200 mg, beginning of treatment - Cimetidine - IV - 200 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Mihaly 1984 - IV 200 mg, beginning of treatment - Cimetidine - IV - 200 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 200 mg, Mihaly 1984, n=6",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 200 mg, Mihaly 1984, n=6\n2021-09-13 17:02"
+        }
+      ]
     },
     {
       "Name": "iv 300 mg (2 min), Lebert 1981, n=1",
@@ -7329,7 +7983,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "iv 300 mg (2 min), Lebert 1981, n=1|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Lebert 1981 - IV 300 mg - Cimetidine - IV - 300 mg - Plasma - agg. (n=8)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Lebert 1981 - IV 300 mg - Cimetidine - IV - 300 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Lebert 1981 - IV 300 mg - Cimetidine - IV - 300 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 300 mg (2 min), Lebert 1981, n=1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 300 mg (2 min), Lebert 1981, n=1\n2021-09-13 17:03"
+        }
+      ]
     },
     {
       "Name": "iv 300 mg (2 min), Walkenstein 1978, n=12",
@@ -7582,7 +8305,412 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 7.43,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "iv 300 mg (2 min), Walkenstein 1978, n=12|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 14
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 1 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 1 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 1 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 15,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 10 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 10 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 10 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 16,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 11 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 11 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 11 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 17,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 12 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 12 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 12 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 18,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 2 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 2 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 2 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 19,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 3 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 3 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 3 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 20,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 4 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 4 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 4 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 21,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 5 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 5 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 5 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 22,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 6 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 6 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 6 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 23,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 7 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 7 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 7 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 24,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 8 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 8 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 8 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 25,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg Subject 9 - Cimetidine - IV - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - IV 300 mg Subject 9 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg Subject 9 - Cimetidine - IV - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 26,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 300 mg (2 min), Walkenstein 1978, n=12",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 300 mg (2 min), Walkenstein 1978, n=12\n2021-09-13 16:13"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv 300 mg (2 min), Walkenstein 1978, n=12|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 1 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 1 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 1 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 10 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 10 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 10 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 11 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 11 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 11 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 12 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 12 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 12 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 2 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 2 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 2 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 3 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 3 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 3 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 4 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 4 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 4 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 5 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 5 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 5 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 6 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 6 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 6 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 7 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 7 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 7 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 8 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 8 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 8 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - IV 300 mg urine Subject 9 - Cimetidine - IV - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - IV 300 mg urine Subject 9 - Cimetidine - IV - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - IV 300 mg urine Subject 9 - Cimetidine - IV - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 14,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "iv 300 mg (2 min), Walkenstein 1978, n=12",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\niv 300 mg (2 min), Walkenstein 1978, n=12\n2021-09-13 16:13"
+        }
+      ]
     },
     {
       "Name": "po 200 mg (tab), Bodemar 1979 (fasted)",
@@ -7715,7 +8843,89 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.005,
+              "Max": 1.488795,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg (tab), Bodemar 1979 (fasted)|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Bodemar 1979 - PO 200 mg - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)-ArithmeticMean",
+              "X": "Bodemar 1979 - PO 200 mg - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)|Time",
+              "Y": "Bodemar 1979 - PO 200 mg - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Bodemar 1979 - PO 200 mg fasted - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)-ArithmeticMean",
+              "X": "Bodemar 1979 - PO 200 mg fasted - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)|Time",
+              "Y": "Bodemar 1979 - PO 200 mg fasted - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg (tab), Bodemar 1979 (fasted)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine\npo 200 mg (tab), Bodemar 1979 (fasted)\n2023-09-05 15:34"
+        }
+      ]
     },
     {
       "Name": "po 200 mg (tab), Bodemar 1979 (fed)",
@@ -7846,7 +9056,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 1.290666,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg (tab), Bodemar 1979 (fed)|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 5
+              }
+            },
+            {
+              "Name": "Bodemar 1979 - PO 200 mg fed - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)-Cimetidine-ArithmeticMean",
+              "X": "Bodemar 1979 - PO 200 mg fed - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)|Time",
+              "Y": "Bodemar 1979 - PO 200 mg fed - Cimetidine - PO - 200 mg - Whole Blood - agg. (n=10)|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg (tab), Bodemar 1979 (fed)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg (tab), Bodemar 1979 (fed)\n2021-09-13 17:03"
+        }
+      ]
     },
     {
       "Name": "po 200 mg, Bodemar 1981, n=10",
@@ -7979,7 +9260,148 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 0.9148515,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg, Bodemar 1981, n=10|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 7
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - PO 200 mg - Cimetidine - PO - 200 mg - Plasma - agg. (n=10)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bodemar 1981 - PO 200 mg - Cimetidine - PO - 200 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Bodemar 1981 - PO 200 mg - Cimetidine - PO - 200 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg, Bodemar 1981, n=10",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg, Bodemar 1981, n=10\n2021-09-13 17:04"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 200 mg, Bodemar 1981, n=10|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - PO 200 mg, Urine - Cimetidine - PO - 200 mg - Urine - agg. (n=10)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Bodemar 1981 - PO 200 mg, Urine - Cimetidine - PO - 200 mg - Urine - agg. (n=10)|Time",
+              "Y": "Bodemar 1981 - PO 200 mg, Urine - Cimetidine - PO - 200 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg, Bodemar 1981, n=10, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg, Bodemar 1981, n=10\n2021-09-13 17:04"
+        }
+      ]
     },
     {
       "Name": "po 200 mg, Burland 1975, caps",
@@ -8106,7 +9528,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg, Burland 1975, caps|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 9
+              }
+            },
+            {
+              "Name": "Burland 1975 - PO 200 mg caps - Cimetidine - PO - 200 mg - Whole Blood - indiv.-ArithmeticMean",
+              "X": "Burland 1975 - PO 200 mg caps - Cimetidine - PO - 200 mg - Whole Blood - indiv.|Time",
+              "Y": "Burland 1975 - PO 200 mg caps - Cimetidine - PO - 200 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg, Burland 1975, caps",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg, Burland 1975, caps\n2021-09-13 17:04"
+        }
+      ]
     },
     {
       "Name": "po 200 mg, Burland 1975, sol",
@@ -8233,7 +9724,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg, Burland 1975, sol|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 9
+              }
+            },
+            {
+              "Name": "Burland 1975 - PO 200 mg sol - Cimetidine - PO - 200 mg - Whole Blood - indiv.-ArithmeticMean",
+              "X": "Burland 1975 - PO 200 mg sol - Cimetidine - PO - 200 mg - Whole Blood - indiv.|Time",
+              "Y": "Burland 1975 - PO 200 mg sol - Cimetidine - PO - 200 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg, Burland 1975, sol",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg, Burland 1975, sol\n2021-09-13 17:05"
+        }
+      ]
     },
     {
       "Name": "po 200 mg, Kanto 1981, n=8",
@@ -8360,7 +9920,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg, Kanto 1981, n=8|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 7
+              }
+            },
+            {
+              "Name": "Kanto 1981 - PO  200 mg - Cimetidine - PO - 200 mg - Plasma - agg. (n=8)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Kanto 1981 - PO  200 mg - Cimetidine - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Kanto 1981 - PO  200 mg - Cimetidine - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg, Kanto 1981, n=8",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg, Kanto 1981, n=8\n2021-09-13 17:05"
+        }
+      ]
     },
     {
       "Name": "po 200 mg, Mihaly 1984, n=8",
@@ -8487,7 +10116,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200 mg, Mihaly 1984, n=8|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 7
+              }
+            },
+            {
+              "Name": "Mihaly 1984 - PO 200 mg, beginning of treatment - Cimetidine - PO - 200 mg - Plasma - agg. (n=6)-ArithmeticMean",
+              "X": "Mihaly 1984 - PO 200 mg, beginning of treatment - Cimetidine - PO - 200 mg - Plasma - agg. (n=6)|Time",
+              "Y": "Mihaly 1984 - PO 200 mg, beginning of treatment - Cimetidine - PO - 200 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200 mg, Mihaly 1984, n=8",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200 mg, Mihaly 1984, n=8\n2021-09-13 17:05"
+        }
+      ]
     },
     {
       "Name": "po 200/400 mg QID, Bodemar 1981 (fasted)",
@@ -8985,7 +10683,80 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 168.0,
+              "Max": 192.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.04,
+              "Max": 3.072214,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 200/400 mg QID, Bodemar 1981 (fasted)|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - 200/400 mg QID - Cimetidine - PO - 200/400 mg - Plasma - agg. (n=10)-ArithmeticMean",
+              "X": "Bodemar 1981 - 200/400 mg QID - Cimetidine - PO - 200/400 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Bodemar 1981 - 200/400 mg QID - Cimetidine - PO - 200/400 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 200/400 mg QID, Bodemar 1981 (fasted)",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 200/400 mg QID, Bodemar 1981 (fasted)\n2021-09-13 17:07"
+        }
+      ]
     },
     {
       "Name": "po 300 mg (sol), Walkenstein 1978, n=24",
@@ -9322,7 +11093,555 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.05,
+              "Max": 2.29,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 300 mg (sol), Walkenstein 1978, n=24|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#C00000",
+                "LegendIndex": 32
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 1 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 1 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 1 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 33,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 10 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 10 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 10 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 34,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 11 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 11 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 11 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 35,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 12 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 12 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 12 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 36,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 13 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 13 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 13 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 37,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 14 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 14 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 14 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 38,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 15 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 15 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 15 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 39,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 16 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 16 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 16 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 40,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 17 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 17 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 17 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 41,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 18 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 18 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 18 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 42,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 19 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 19 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 19 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 43,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 2 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 2 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 2 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 44,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 20 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 20 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 20 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 45,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 21 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 21 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 21 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 46,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 22 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 22 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 22 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 47,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 23 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 23 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 23 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 48,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 24 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 24 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 24 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 49,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 3 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 3 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 3 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 50,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 4 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 4 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 4 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 51,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 5 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 5 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 5 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 52,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 6 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 6 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 6 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 53,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 7 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 7 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 7 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 54,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 8 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 8 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 8 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 55,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg sol Subject 9 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg sol Subject 9 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg sol Subject 9 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 56,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 300 mg (sol), Walkenstein 1978, n=24",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 300 mg (sol), Walkenstein 1978, n=24\n2021-09-13 17:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 300 mg (sol), Walkenstein 1978, n=24|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 1 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 1 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 1 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 10 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 10 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 10 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 11 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 11 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 11 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 12 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 12 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 12 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 2 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 2 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 2 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 3 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 3 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 3 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 4 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 4 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 4 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 5 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 5 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 5 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 6 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 6 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 6 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 7 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 7 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 7 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 8 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 8 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 8 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg urine Subject 9 - Cimetidine - PO - 300 mg - Urine - indiv.-Cimetidine-Kidney-Urine-Individual",
+              "X": "Walkenstein 1978 - PO 300 mg urine Subject 9 - Cimetidine - PO - 300 mg - Urine - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg urine Subject 9 - Cimetidine - PO - 300 mg - Urine - indiv.|ObservedData|Kidney|Urine|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 300 mg (sol), Walkenstein 1978, n=24, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "BottomInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 300 mg (sol), Walkenstein 1978, n=24\n2021-09-13 17:07"
+        }
+      ]
     },
     {
       "Name": "po 300 mg (tabl), Walkenstein 1978, n=12",
@@ -9515,7 +11834,210 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.02,
+              "Max": 2.17,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 300 mg (tabl), Walkenstein 1978, n=12|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 32
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 13 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 13 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 13 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 33,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 14 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 14 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 14 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 34,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 15 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 15 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 15 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 35,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 16 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 16 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 16 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 36,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 17 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 17 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 17 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 37,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 18 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 18 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 18 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 38,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 19 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 19 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 19 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 39,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 20 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 20 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 20 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 40,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 21 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 21 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 21 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 41,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 22 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 22 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 22 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 42,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 23 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 23 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 23 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 43,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Walkenstein 1978 - PO 300 mg tab Subject 24 - Cimetidine - PO - 300 mg - Whole Blood - indiv.",
+              "X": "Walkenstein 1978 - PO 300 mg tab Subject 24 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|Time",
+              "Y": "Walkenstein 1978 - PO 300 mg tab Subject 24 - Cimetidine - PO - 300 mg - Whole Blood - indiv.|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 44,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 300 mg (tabl), Walkenstein 1978, n=12",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 300 mg (tabl), Walkenstein 1978, n=12\n2021-09-13 17:08"
+        }
+      ]
     },
     {
       "Name": "po 300 mg (tab), D'Angio 1986, n=6",
@@ -9671,7 +12193,138 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 3.572912,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 300 mg (tab), D'Angio 1986, n=6|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 39
+              }
+            },
+            {
+              "Name": "D'Angio 1986 - PO 300 mg tab subject 1 - Cimetidine - PO - 300 mg - Serum - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "D'Angio 1986 - PO 300 mg tab subject 1 - Cimetidine - PO - 300 mg - Serum - indiv.|Time",
+              "Y": "D'Angio 1986 - PO 300 mg tab subject 1 - Cimetidine - PO - 300 mg - Serum - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 40,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "D'Angio 1986 - PO 300 mg tab subject 2 - Cimetidine - PO - 300 mg - Serum - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "D'Angio 1986 - PO 300 mg tab subject 2 - Cimetidine - PO - 300 mg - Serum - indiv.|Time",
+              "Y": "D'Angio 1986 - PO 300 mg tab subject 2 - Cimetidine - PO - 300 mg - Serum - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 41,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "D'Angio 1986 - PO 300 mg tab subject 3 - Cimetidine - PO - 300 mg - Serum - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "D'Angio 1986 - PO 300 mg tab subject 3 - Cimetidine - PO - 300 mg - Serum - indiv.|Time",
+              "Y": "D'Angio 1986 - PO 300 mg tab subject 3 - Cimetidine - PO - 300 mg - Serum - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 42,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "D'Angio 1986 - PO 300 mg tab subject 4 - Cimetidine - PO - 300 mg - Serum - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "D'Angio 1986 - PO 300 mg tab subject 4 - Cimetidine - PO - 300 mg - Serum - indiv.|Time",
+              "Y": "D'Angio 1986 - PO 300 mg tab subject 4 - Cimetidine - PO - 300 mg - Serum - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 43,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "D'Angio 1986 - PO 300 mg tab subject 5 - Cimetidine - PO - 300 mg - Serum - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "D'Angio 1986 - PO 300 mg tab subject 5 - Cimetidine - PO - 300 mg - Serum - indiv.|Time",
+              "Y": "D'Angio 1986 - PO 300 mg tab subject 5 - Cimetidine - PO - 300 mg - Serum - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 44,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "D'Angio 1986 - PO 300 mg tab subject 6 - Cimetidine - PO - 300 mg - Serum - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "D'Angio 1986 - PO 300 mg tab subject 6 - Cimetidine - PO - 300 mg - Serum - indiv.|Time",
+              "Y": "D'Angio 1986 - PO 300 mg tab subject 6 - Cimetidine - PO - 300 mg - Serum - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 45,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 300 mg (tab), D'Angio 1986, n=6",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 300 mg (tab), D'Angio 1986, n=6\n2021-09-13 17:08"
+        }
+      ]
     },
     {
       "Name": "po 300 mg QID (sol), Barbhaiya 1995, n=18",
@@ -10085,7 +12738,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 144.0,
+              "Max": 156.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 300 mg QID (sol), Barbhaiya 1995, n=18|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 39
+              }
+            },
+            {
+              "Name": "Barbhaiya 1995 - PO 300 mg QID - Cimetidine - PO - 300 mg - Plasma - agg. (n=18)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Barbhaiya 1995 - PO 300 mg QID - Cimetidine - PO - 300 mg - Plasma - agg. (n=18)|Time",
+              "Y": "Barbhaiya 1995 - PO 300 mg QID - Cimetidine - PO - 300 mg - Plasma - agg. (n=18)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 40,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 300 mg QID (sol), Barbhaiya 1995, n=18",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 300 mg QID (sol), Barbhaiya 1995, n=18\n2021-09-13 17:09"
+        }
+      ]
     },
     {
       "Name": "po 400 mg (tab), Bodemar 1979, n=10",
@@ -10212,7 +12936,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 2.835539,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Whole Blood-Concentration",
+              "X": "Time",
+              "Y": "po 400 mg (tab), Bodemar 1979, n=10|Organism|PeripheralVenousBlood|Cimetidine|Whole Blood (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 32
+              }
+            },
+            {
+              "Name": "Bodemar 1979 - PO 400 mg - Cimetidine - PO - 400 mg - Whole Blood - agg. (n=10)-ArithmeticMean",
+              "X": "Bodemar 1979 - PO 400 mg - Cimetidine - PO - 400 mg - Whole Blood - agg. (n=10)|Time",
+              "Y": "Bodemar 1979 - PO 400 mg - Cimetidine - PO - 400 mg - Whole Blood - agg. (n=10)|ObservedData|Peripheral Venous Blood|Whole Blood|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 33,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 400 mg (tab), Bodemar 1979, n=10",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 400 mg (tab), Bodemar 1979, n=10\n2021-09-13 17:09"
+        }
+      ]
     },
     {
       "Name": "po 400 mg (tab), Somogyi 1981, n=8",
@@ -10338,7 +13133,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.03,
+              "Max": 3.885728,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 400 mg (tab), Somogyi 1981, n=8|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 34
+              }
+            },
+            {
+              "Name": "Somogyi 1981 - PO 400 mg tab - Cimetidine - PO - 400 mg - Plasma - agg. (n=8)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Somogyi 1981 - PO 400 mg tab - Cimetidine - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "Somogyi 1981 - PO 400 mg tab - Cimetidine - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 35,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 400 mg (tab), Somogyi 1981, n=8",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 400 mg (tab), Somogyi 1981, n=8\n2021-09-13 17:10"
+        }
+      ]
     },
     {
       "Name": "po 400 mg (tab),Grahnen 1979, n=3",
@@ -10483,7 +13349,172 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.02,
+              "Max": 2.997755,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 400 mg (tab),Grahnen 1979, n=3|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 34
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - PO 400 mg, Individual LH - Cimetidine - PO - 400 mg - Plasma - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Grahnen 1979 - PO 400 mg, Individual LH - Cimetidine - PO - 400 mg - Plasma - indiv.|Time",
+              "Y": "Grahnen 1979 - PO 400 mg, Individual LH - Cimetidine - PO - 400 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 35,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - PO 400 mg, Individual LOE - Cimetidine - PO - 400 mg - Plasma - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Grahnen 1979 - PO 400 mg, Individual LOE - Cimetidine - PO - 400 mg - Plasma - indiv.|Time",
+              "Y": "Grahnen 1979 - PO 400 mg, Individual LOE - Cimetidine - PO - 400 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 36,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - PO 400 mg, Individual UB - Cimetidine - PO - 400 mg - Plasma - indiv.-Cimetidine-Peripheral Venous Blood-Plasma-Individual",
+              "X": "Grahnen 1979 - PO 400 mg, Individual UB - Cimetidine - PO - 400 mg - Plasma - indiv.|Time",
+              "Y": "Grahnen 1979 - PO 400 mg, Individual UB - Cimetidine - PO - 400 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|Individual",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#FF0000",
+                "LegendIndex": 37,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 400 mg (tab),Grahnen 1979, n=3",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 400 mg (tab),Grahnen 1979, n=3\n2021-09-13 17:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 400 mg (tab),Grahnen 1979, n=3|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 35,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Grahnen 1979 - PO 400 mg, urine mean % of dose - Cimetidine - PO - 400 mg - Urine - agg. (n=10)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Grahnen 1979 - PO 400 mg, urine mean % of dose - Cimetidine - PO - 400 mg - Urine - agg. (n=10)|Time",
+              "Y": "Grahnen 1979 - PO 400 mg, urine mean % of dose - Cimetidine - PO - 400 mg - Urine - agg. (n=10)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 36,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 400 mg (tab),Grahnen 1979, n=3, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 400 mg (tab),Grahnen 1979, n=3\n2021-09-13 17:10"
+        }
+      ]
     },
     {
       "Name": "po 400 mg, Bodemar 1981, n=9",
@@ -10616,7 +13647,148 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.02,
+              "Max": 3.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 400 mg, Bodemar 1981, n=9|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 34
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - PO 400 mg - Cimetidine - PO - 400 mg - Plasma - agg. (n=9)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bodemar 1981 - PO 400 mg - Cimetidine - PO - 400 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Bodemar 1981 - PO 400 mg - Cimetidine - PO - 400 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 35,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 400 mg, Bodemar 1981, n=9",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 400 mg, Bodemar 1981, n=9\n2021-09-13 17:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 400 mg, Bodemar 1981, n=9|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 35,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - PO 400 mg, Urine - Cimetidine - PO - 400 mg - Urine - agg. (n=9)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Bodemar 1981 - PO 400 mg, Urine - Cimetidine - PO - 400 mg - Urine - agg. (n=9)|Time",
+              "Y": "Bodemar 1981 - PO 400 mg, Urine - Cimetidine - PO - 400 mg - Urine - agg. (n=9)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 36,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 400 mg, Bodemar 1981, n=9, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 400 mg, Bodemar 1981, n=9\n2021-09-13 17:10"
+        }
+      ]
     },
     {
       "Name": "po 800 mg, Bodemar 1981, n=9",
@@ -10749,7 +13921,148 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1,
+              "Max": 12.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.01,
+              "Max": 5.827036,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 800 mg, Bodemar 1981, n=9|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 34
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - PO 800 mg - Cimetidine - PO - 800 mg - Plasma - agg. (n=9)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Bodemar 1981 - PO 800 mg - Cimetidine - PO - 800 mg - Plasma - agg. (n=9)|Time",
+              "Y": "Bodemar 1981 - PO 800 mg - Cimetidine - PO - 800 mg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 35,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 800 mg, Bodemar 1981, n=9",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 800 mg, Bodemar 1981, n=9\n2021-09-13 17:11"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 800 mg, Bodemar 1981, n=9|Organism|Kidney|Urine|Cimetidine|Fraction excreted to urine",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 35,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Bodemar 1981 - PO 800 mg, Urine - Cimetidine - PO - 800 mg - Urine - agg. (n=9)-Cimetidine-Kidney-Urine-ArithmeticMean",
+              "X": "Bodemar 1981 - PO 800 mg, Urine - Cimetidine - PO - 800 mg - Urine - agg. (n=9)|Time",
+              "Y": "Bodemar 1981 - PO 800 mg, Urine - Cimetidine - PO - 800 mg - Urine - agg. (n=9)|ObservedData|Kidney|Urine|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#ECD33A",
+                "LegendIndex": 36,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 800 mg, Bodemar 1981, n=9, urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 800 mg, Bodemar 1981, n=9\n2021-09-13 17:11"
+        }
+      ]
     },
     {
       "Name": "po 800 mg (tab) qd, Tiseo 1998, n=18",
@@ -10947,7 +14260,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Cimetidine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "po 800 mg (tab) qd, Tiseo 1998, n=18|Organism|PeripheralVenousBlood|Cimetidine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Tiseo 1998 - PO 800 mg QD - Cimetidine - PO - 800 mg - Plasma - agg. (n=19)-Cimetidine-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Tiseo 1998 - PO 800 mg QD - Cimetidine - PO - 800 mg - Plasma - agg. (n=19)|Time",
+              "Y": "Tiseo 1998 - PO 800 mg QD - Cimetidine - PO - 800 mg - Plasma - agg. (n=19)|ObservedData|Peripheral Venous Blood|Plasma|Cimetidine|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "po 800 mg (tab) qd, Tiseo 1998, n=18",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine-Model\npo 800 mg (tab) qd, Tiseo 1998, n=18\n2021-09-13 17:11"
+        }
+      ]
     },
     {
       "Name": "Elliott 1984, Midazolam po control",
@@ -11279,7 +14661,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Elliott 1984, Midazolam po control|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Elliott 1984 - Midazolam/H2O - Midazolam - PO - 15 mg - Plasma - agg. (n=5)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Elliott 1984 - Midazolam/H2O - Midazolam - PO - 15 mg - Plasma - agg. (n=5)|Time",
+              "Y": "Elliott 1984 - Midazolam/H2O - Midazolam - PO - 15 mg - Plasma - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine\nElliott 1984, Midazolam po control\n2023-07-28 14:38"
+        }
+      ]
     },
     {
       "Name": "Elliott 1984, Midazolam po + 200/400 mg cimetidine",
@@ -11803,7 +15254,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Wrighton 1994",
@@ -11819,6 +15270,75 @@
           "Name": "MATE1-Ito 2012",
           "MoleculeName": "MATE1",
           "CompoundName": "Cimetidine"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Midazolam-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Elliott 1984, Midazolam po + 200/400 mg cimetidine|Organism|PeripheralVenousBlood|Midazolam|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Elliott 1984 - Midazolam/cimetidine - Midazolam - PO - 15 mg - Plasma - agg. (n=5)-Midazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Elliott 1984 - Midazolam/cimetidine - Midazolam - PO - 15 mg - Plasma - agg. (n=5)|Time",
+              "Y": "Elliott 1984 - Midazolam/cimetidine - Midazolam - PO - 15 mg - Plasma - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Midazolam|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Cimetidine\nElliott 1984, Midazolam po + 200/400 mg cimetidine\n2023-08-31 07:50"
         }
       ]
     }
@@ -11868,12 +15388,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -11893,7 +15413,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -12644,19 +16164,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.87E-06,
+              "Value": 2.87e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -12760,12 +16280,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -12785,7 +16305,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -13567,19 +17087,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.87E-06,
+              "Value": 2.87e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -16656,12 +20176,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -16681,7 +20201,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -17532,19 +21052,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.87E-06,
+              "Value": 2.87e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -19563,12 +23083,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -19588,7 +23108,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -20436,19 +23956,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.87E-06,
+              "Value": 2.87e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -21978,12 +25498,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -22003,7 +25523,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -22107,19 +25627,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 5.2554004942E-06,
+              "Value": 5.2554004942e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 5.26E-07,
+              "Value": 5.26e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 5.2554004942E-05,
+              "Value": 5.2554004942e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -22200,12 +25720,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -22225,7 +25745,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -22329,19 +25849,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 5.2554004942E-06,
+              "Value": 5.2554004942e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 5.26E-07,
+              "Value": 5.26e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 5.2554004942E-05,
+              "Value": 5.2554004942e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -22421,12 +25941,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -22446,7 +25966,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -23294,19 +26814,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.87E-06,
+              "Value": 2.87e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -23439,12 +26959,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -23464,7 +26984,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -24315,19 +27835,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.87E-06,
+              "Value": 2.87e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -25910,12 +29430,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -25935,7 +29455,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -26783,19 +30303,19 @@
           "Parameters": [
             {
               "Name": "Start value",
-              "Value": 2.43E-06,
+              "Value": 2.43e-06,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MinValue",
-              "Value": 2.87E-07,
+              "Value": 2.87e-07,
               "Unit": "cm/min",
               "ValueOrigin": {}
             },
             {
               "Name": "MaxValue",
-              "Value": 2.8740150156E-05,
+              "Value": 2.8740150156e-05,
               "Unit": "cm/min",
               "ValueOrigin": {}
             }
@@ -26908,12 +30428,12 @@
             },
             {
               "Name": "xtol",
-              "Value": 1E-06,
+              "Value": 1e-06,
               "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10,
+              "Value": 1e-10,
               "Type": "Double"
             },
             {
@@ -26933,7 +30453,7 @@
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09,
+              "Value": 1e-09,
               "Type": "Double"
             }
           ]
@@ -27100,7 +30620,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 4E-08
+            "LLOQ": 4e-08
           },
           "Values": [
             2.697086,
@@ -27242,7 +30762,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 4E-08
+            "LLOQ": 4e-08
           },
           "Values": [
             2.009525,
@@ -27390,7 +30910,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 4E-08
+            "LLOQ": 4e-08
           },
           "Values": [
             2.524242,
@@ -27680,7 +31200,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 4E-08
+            "LLOQ": 4e-08
           },
           "Values": [
             0.05,
@@ -27832,7 +31352,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 4E-08
+            "LLOQ": 4e-08
           },
           "Values": [
             0.05,
@@ -27984,7 +31504,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 4E-08
+            "LLOQ": 4e-08
           },
           "Values": [
             0.05,
@@ -28282,7 +31802,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             6.049524,
@@ -28924,7 +32444,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             10.6281,
@@ -29100,7 +32620,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.06901531,
@@ -29299,7 +32819,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.04910235,
@@ -29498,7 +33018,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.04099437,
@@ -30259,7 +33779,7 @@
                 "MolWeight": 252.34
               },
               "Values": [
-                1.1795295E-08,
+                1.1795295e-08,
                 0.6200695,
                 0.73169285,
                 0.5952671,
@@ -30289,7 +33809,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.03168317,
@@ -30458,7 +33978,7 @@
                 "MolWeight": 252.34
               },
               "Values": [
-                1.1795295E-08,
+                1.1795295e-08,
                 0.4712287,
                 0.7936713,
                 0.89286816,
@@ -30488,7 +34008,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.03168317,
@@ -30687,7 +34207,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.1021861,
@@ -30886,7 +34406,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.0181656,
@@ -31573,7 +35093,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             4.1,
@@ -31723,7 +35243,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             5.07,
@@ -31873,7 +35393,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             7.43,
@@ -32023,7 +35543,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             6.34,
@@ -32173,7 +35693,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             3.5,
@@ -32323,7 +35843,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             4.92,
@@ -32473,7 +35993,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             4.5,
@@ -32623,7 +36143,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             4.87,
@@ -32773,7 +36293,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             5.33,
@@ -32923,7 +36443,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             6.23,
@@ -33073,7 +36593,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             6.03,
@@ -33223,7 +36743,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             4.43,
@@ -33373,7 +36893,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.08,
@@ -33523,7 +37043,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.5,
@@ -33673,7 +37193,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.39,
@@ -33823,7 +37343,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.33,
@@ -33971,7 +37491,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.11,
@@ -34121,7 +37641,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.66,
@@ -34271,7 +37791,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.52,
@@ -34421,7 +37941,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.34,
@@ -34571,7 +38091,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.61,
@@ -34721,7 +38241,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.59,
@@ -34871,7 +38391,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.45,
@@ -35021,7 +38541,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.46,
@@ -35171,7 +38691,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.8,
@@ -35317,7 +38837,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.12,
@@ -35463,7 +38983,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.36,
@@ -35609,7 +39129,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.36,
@@ -35755,7 +39275,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.21,
@@ -35901,7 +39421,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.25,
@@ -36047,7 +39567,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.46,
@@ -36193,7 +39713,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.73,
@@ -36339,7 +39859,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.97,
@@ -36485,7 +40005,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.07,
@@ -36631,7 +40151,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.77,
@@ -36777,7 +40297,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             2.08,
@@ -36923,7 +40443,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.11,
@@ -37069,7 +40589,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.025,
@@ -37215,7 +40735,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.96,
@@ -37361,7 +40881,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.28,
@@ -37507,7 +41027,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.94,
@@ -37653,7 +41173,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.025,
@@ -37799,7 +41319,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.08,
@@ -37945,7 +41465,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             1.2,
@@ -38091,7 +41611,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             2.17,
@@ -38237,7 +41757,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.39,
@@ -38383,7 +41903,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.17,
@@ -38529,7 +42049,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.025,
@@ -41778,7 +45298,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.01578477,
@@ -42242,7 +45762,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.2153234,
@@ -42402,7 +45922,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.4294645,
@@ -42562,7 +46082,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             1.644833,
@@ -42722,7 +46242,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.4763536,
@@ -42882,7 +46402,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.7437854,
@@ -43040,7 +46560,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             0.3222098,
@@ -43522,7 +47042,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 1E-07
+            "LLOQ": 1e-07
           },
           "Values": [
             1.330833,
@@ -43745,7 +47265,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 252.34,
-            "LLOQ": 5E-08
+            "LLOQ": 5e-08
           },
           "Values": [
             0.270099,
@@ -43933,7 +47453,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             0.08451545,
@@ -44085,7 +47605,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             0.08752936,
@@ -44235,7 +47755,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             0.025637731,
@@ -44387,7 +47907,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-09
+            "LLOQ": 1e-09
           },
           "Values": [
             0.018781269,
@@ -44938,7 +48458,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-08
+            "LLOQ": 1e-08
           },
           "Values": [
             0.004166667,
@@ -45104,7 +48624,7 @@
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
             "MolWeight": 325.77,
-            "LLOQ": 1E-08
+            "LLOQ": 1e-08
           },
           "Values": [
             0.02794118,
